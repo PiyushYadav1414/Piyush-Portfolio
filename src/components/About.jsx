@@ -1,7 +1,7 @@
 // Importing React and required libraries/components
 import React from "react";
 // `Tilt` provides a tilting effect when hovering over an element.
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 // `motion` from Framer Motion is used for animations.
 import { motion } from "framer-motion";
 // Importing custom styles, data, higher-order components (HOCs), and utility functions.

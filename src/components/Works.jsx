@@ -1,7 +1,7 @@
 // Importing React library to create the component.
 import React from "react";
 // Importing the Tilt component to create a 3D tilt effect on hover.
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 // Importing motion from Framer Motion for animations.
 import { motion } from "framer-motion";
 
