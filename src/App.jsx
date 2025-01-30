@@ -31,13 +31,13 @@ const App = () => {
         <Works /> {/* Section to showcase your previous projects or work. */}
         <HeroScrollDemo/>
         <Feedbacks /> {/* Section to display testimonials or feedback from clients/employers. */}
-        <GoogleGeminiEffectDemo/>
+        
         {/* Contact and StarsCanvas sections are wrapped in a relative container for proper layering. */}
         <div className='relative z-0'>
           <Contact /> {/* Section for contact information or a contact form. */}
           <StarsCanvas /> {/* A visual element, likely a 3D canvas with stars, for a cool background effect. */}
         </div>
-       {/* <GoogleGeminiEffectDemo/> */}
+       <GoogleGeminiEffectDemo/>
       </div>
      
           
