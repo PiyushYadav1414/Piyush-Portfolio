@@ -5,6 +5,8 @@ import { BrowserRouter } from "react-router-dom";
 // Importing various components for the application. 
 // These are the building blocks of your portfolio: About, Contact, Experience, etc.
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { HeroScrollDemo } from './components/ui/hero-scroll-demo';
+import GoogleGeminiEffectDemo from './components/ui/google-gemini-effect-demo'
 
 // Defining the main App component
 const App = () => {
@@ -27,14 +29,19 @@ const App = () => {
         <Experience /> {/* Section for showcasing your professional experience. */}
         <Tech /> {/* Section to display the technologies and tools you use. */}
         <Works /> {/* Section to showcase your previous projects or work. */}
+        <HeroScrollDemo/>
         <Feedbacks /> {/* Section to display testimonials or feedback from clients/employers. */}
-
+          
         {/* Contact and StarsCanvas sections are wrapped in a relative container for proper layering. */}
         <div className='relative z-0'>
           <Contact /> {/* Section for contact information or a contact form. */}
           <StarsCanvas /> {/* A visual element, likely a 3D canvas with stars, for a cool background effect. */}
         </div>
+       <GoogleGeminiEffectDemo/>
       </div>
+     
+          
+      
     </BrowserRouter>
   );
 }
