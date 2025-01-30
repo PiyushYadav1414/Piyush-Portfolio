@@ -114,6 +114,29 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Red Text Gradient */
+.red-text-gradient {
+  background: linear-gradient(to left, #e94233, #f3766a); /* Red to orange gradient */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Purple Text Gradient */
+.purple-text-gradient {
+  background: linear-gradient(to left, #8e2de2, #4a00e0); /* Light purple to dark purple gradient */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Yellow Text Gradient */
+.yellow-text-gradient {
+  background: linear-gradient(to left, #f9d423, #e1ce6b); /* Yellow to red gradient */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

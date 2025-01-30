@@ -28,9 +28,10 @@ const Hero = () => {
           </h1>
           {/* Subheading describing what Adrian does */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
+  I am a Full Stack Developer, crafting inspiring transformative<br className='sm:block hidden' />
+    solutions by turning complexity into elegance and functionality
+</p>
+
         </div>
       </div>
 

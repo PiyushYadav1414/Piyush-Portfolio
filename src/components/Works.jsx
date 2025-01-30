@@ -26,9 +26,10 @@ const ProjectCard = ({
   tags, // Tags associated with the project (like technologies used).
   image, // Image or screenshot of the project.
   source_code_link, // URL for the project's source code (GitHub).
+  live_demo_link, // URL for the live project (Live Demo).
 }) => {
-  return ( 
-// fadeIn tells when we reload the page then project card will move(animated) in upward direction from below     
+  return (
+    // fadeIn tells when we reload the page then project card will move(animated) in upward direction from below     
     // Motion component to animate the card when it appears.
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       {/* Tilt adds a 3D effect to the card on hover */}
@@ -49,20 +50,24 @@ const ProjectCard = ({
           />
 
           {/* Icon that appears when you hover over the image, allowing the user to open the GitHub source code */}
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")} // Opens the source code link in a new tab.
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
+
               <img
                 src={github} // GitHub icon.
                 alt='source code' // Alt text for the GitHub icon.
                 className='w-1/2 h-1/2 object-contain' // Styling the GitHub icon.
               />
+
             </div>
-          </div>
-{/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */}
-{/* In below add Live button It will be added automatically when you will uncommment the code  */}
+
+
+          </div> */}
+          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */}
+          {/* In below add Live button It will be added automatically when you will uncommment the code  */}
           {/* Icon that appears when you hover over the image, allowing the user to open the GitHub source code */}
           {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
@@ -76,7 +81,7 @@ const ProjectCard = ({
               />
             </div>
           </div> */}
-{/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */}
+          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */}
         </div>
 
         {/* Project name and description */}
@@ -96,6 +101,29 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
+         <div className="flex justify-between items-center mt-6">
+          <a
+            className="px-[60px] py-[10px] text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg hover:from-blue-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition duration-300 ease-in-out transform hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={live_demo_link}
+          >
+            Live →
+          </a>
+          <div
+            onClick={() => window.open(source_code_link, "_blank")}
+            className='bg-black hover:bg-gray-800 w-12 h-12 rounded-full flex justify-center items-center cursor-pointer transition duration-300 ease-in-out transform hover:scale-110'
+          >
+            <img
+              src={github}
+              alt='source code'
+              className='w-[100%] h-[100%] object-contain'
+            />
+          </div>
+        </div>
+
+
       </Tilt>
     </motion.div>
   );

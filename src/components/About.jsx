@@ -67,11 +67,13 @@ We are using it like this so that we dont have to write same style again and aga
         variants={fadeIn("", "", 0.1, 1)} // Animation effect for the paragraph.
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]' // Text styling.
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a passionate Full-Stack Software Engineer with a proven track record 
+        in developing robust, scalable web applications. With expertise in React,
+         Node.js, and TypeScript, I specialize in creating innovative digital 
+         solutions. My background in machine learning allows me to integrate 
+         intelligent features that transform complex challenges into cutting-edge
+          technologies. I'm committed to continuous learning and delivering high-impact 
+          projects that exceed client expectations.
       </motion.p>
 
       {/* Service cards section */}
