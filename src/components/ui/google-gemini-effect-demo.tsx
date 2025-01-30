@@ -66,6 +66,8 @@ const GoogleGeminiEffectDemo = () => {
           ]}
         />
       </div>
+
+      
       <FocusCards cards={cards} />
       <h1 className="text-4xl font-extralight text-center text-white">or</h1>
       <div className="flex justify-center pt-10 gap-3 md:gap-10 flex-col md:flex-row items-center pb-5 text-white">

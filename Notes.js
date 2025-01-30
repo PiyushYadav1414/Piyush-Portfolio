@@ -6,6 +6,8 @@
 //    - Initialize Git (if not already done):  
 //      git init
 
+//      git remote add origin <repository-url> (Make connecting to git repo)
+
 //    - Add all files:  
 //      git add .
 
