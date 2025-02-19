@@ -29,15 +29,16 @@ const App = () => {
         <Experience /> {/* Section for showcasing your professional experience. */}
         <Tech /> {/* Section to display the technologies and tools you use. */}
         <Works /> {/* Section to showcase your previous projects or work. */}
-        <HeroScrollDemo/>
         <Feedbacks /> {/* Section to display testimonials or feedback from clients/employers. */}
         
         {/* Contact and StarsCanvas sections are wrapped in a relative container for proper layering. */}
         <div className='relative z-0'>
+        <HeroScrollDemo/>
           <Contact /> {/* Section for contact information or a contact form. */}
           <StarsCanvas /> {/* A visual element, likely a 3D canvas with stars, for a cool background effect. */}
+          <GoogleGeminiEffectDemo/>
         </div>
-       <GoogleGeminiEffectDemo/>
+       
       </div>
      
           
