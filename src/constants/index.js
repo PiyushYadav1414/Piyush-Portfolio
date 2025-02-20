@@ -252,7 +252,7 @@ const projects = [
   {
     name: "MobiRide",
     description:
-    "MobiRide is an intuitive ride-hailing platform that empowers users to seamlessly book rides, track drivers in real-time, and manage their ride history. With a user-friendly front-end built using React, a robust back-end powered by Express.js, and real-time communication enabled through Socket.IO, MobiRide ensures smooth interactions between riders and drivers. MongoDB serves as the backbone for managing user data and ride histories, delivering a fast and reliable experience for both riders and drivers alike.",
+     "MobiRide is a ride-hailing platform for booking rides, tracking drivers in real-time, and managing ride history. Built with React, Express.js, and Socket.IO, it offers smooth interactions. MongoDB efficiently handles user and ride data for both riders and drivers.",
     tags: [
       {
         name: "react",
