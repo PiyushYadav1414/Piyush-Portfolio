@@ -33,7 +33,7 @@ const App = () => {
         
         {/* Contact and StarsCanvas sections are wrapped in a relative container for proper layering. */}
         <div className='relative z-0'>
-        <HeroScrollDemo/>
+          <HeroScrollDemo/>
           <Contact /> {/* Section for contact information or a contact form. */}
           <StarsCanvas /> {/* A visual element, likely a 3D canvas with stars, for a cool background effect. */}
           <GoogleGeminiEffectDemo/>

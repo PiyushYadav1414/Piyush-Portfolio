@@ -19,6 +19,7 @@ import {
   tesla,
   carrent,
   jobit,
+  mobiride,
   tripguide,
   threejs,
 } from "../assets";
@@ -247,6 +248,32 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/PiyushYadav1414/ChatWithPiyush-chat-app",
     live_demo_link: "https://chathub-chat-app.onrender.com"
+  },
+  {
+    name: "MobiRide",
+    description:
+    "MobiRide is an intuitive ride-hailing platform that empowers users to seamlessly book rides, track drivers in real-time, and manage their ride history. With a user-friendly front-end built using React, a robust back-end powered by Express.js, and real-time communication enabled through Socket.IO, MobiRide ensures smooth interactions between riders and drivers. MongoDB serves as the backbone for managing user data and ride histories, delivering a fast and reliable experience for both riders and drivers alike.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: mobiride,
+    source_code_link: "https://github.com/PiyushYadav1414/Mobiride",
+    live_demo_link: "https://mobiride-piyush-frontend.onrender.com"
   },
 ];
 
