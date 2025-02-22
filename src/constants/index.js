@@ -165,7 +165,7 @@ const testimonials = [
     name: "Karandeep Singh",
     designation: "Founder & CEO",
     company: "KD Store",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "karandeep.png",
   },
 ];
 
