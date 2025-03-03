@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   kd,
-  tesla,
+  safehand,
   carrent,
   jobit,
   mobiride,
@@ -130,7 +130,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Safe Hands Sydeny Australia",
-    icon: tesla,
+    icon: safehand,
     iconBg: "#E6DEDD",
     date: "Jan 2022 - April 2023",
     points: [
@@ -149,7 +149,7 @@ const testimonials = [
     name: "Dinesh",
     designation: "CCO",
     company: "Safe Hands",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "puneet4.png",
   },
   {
     testimonial:
