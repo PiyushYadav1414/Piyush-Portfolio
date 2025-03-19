@@ -197,7 +197,7 @@ const projects = [
     live_demo_link: "https://piyush-shopeasy-ecoom-website.onrender.com"
   },
   {
-    name: "VisionaryAI",
+    name: "ChatHub",
     description:
       "AI-powered image generation platform using MERN stack and DALL·E AI. Features community sharing, optimized image processing, and an intuitive user interface for creating unique visuals based on user prompts.",
     tags: [
@@ -224,7 +224,7 @@ const projects = [
     live_demo_link: "https://piyush-visionaryai-frontend.onrender.com"
   },
   {
-    name: "ChatHub",
+    name: "VisionaryAI",
     description:
       "Real-time messaging application using MERN stack and Socket.IO. Features end-to-end encryption, HIPAA compliance, and mobile optimization. Implemented customizable UI, increasing user engagement and overall satisfaction.",
     tags: [
