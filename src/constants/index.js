@@ -219,7 +219,7 @@ const projects = [
       },
 
     ],
-    image: jobit,
+    image: tripguide,
     source_code_link: "https://github.com/PiyushYadav1414/piyush-VisionaryAI",
     live_demo_link: "https://piyush-visionaryai-frontend.onrender.com"
   },
@@ -245,7 +245,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
+    image: jobit,
     source_code_link: "https://github.com/PiyushYadav1414/ChatWithPiyush-chat-app",
     live_demo_link: "https://chathub-chat-app.onrender.com"
   },
